@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:id="@+id/layoutUser"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:id="@+id/usersImage"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/profile"
+        app:civ_border_width="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:maxLines="1"
+        />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/online"
+            android:layout_marginBottom="-28dp"
+            android:layout_marginEnd="-80dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online"
+            android:layout_marginEnd="-500dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

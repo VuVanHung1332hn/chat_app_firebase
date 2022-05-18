@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MessageApplication</string>
+    <string name="ng_k">Đăng Ký</string>
+    <string name="ng_nh_p">Đăng Nhập</string>
+    <string name="nh_p_m_t_kh_u">Nhập Mật Khẩu</string>
+    <string name="nh_p_email">Nhập Email</string>
+    <string name="logo_of_the_app">Logo of the app</string>
+    <string name="nh_p_t_n">Nhập tên</string>
+    <string name="nh_p_l_i_m_t_kh_u">Nhập lại mật khẩu</string>
+    <string name="username">username</string>
+    <string name="user">user</string>
+    <string name="trang_c_nh_n">Trang Cá Nhân</string>
+    <string name="l_u_h_nh_nh">Lưu</string>
+    <string name="ng_xu_t">Đăng Xuất</string>
+</resources>
